@@ -48,6 +48,11 @@ namespace Adega
             this.tbAno = new System.Windows.Forms.TextBox();
             this.btLimpar = new System.Windows.Forms.Button();
             this.dgAdega = new System.Windows.Forms.DataGridView();
+            this.colID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDescricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colAno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btInserir = new System.Windows.Forms.Button();
             this.tbID = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -56,11 +61,6 @@ namespace Adega
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.colID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDescricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgAdega)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -109,24 +109,27 @@ namespace Adega
             // 
             this.tbNome.BackColor = System.Drawing.Color.Firebrick;
             this.tbNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbNome.Location = new System.Drawing.Point(129, 194);
             this.tbNome.Name = "tbNome";
-            this.tbNome.Size = new System.Drawing.Size(100, 20);
+            this.tbNome.Size = new System.Drawing.Size(100, 21);
             this.tbNome.TabIndex = 4;
             // 
             // tbCategoria
             // 
             this.tbCategoria.BackColor = System.Drawing.Color.Firebrick;
             this.tbCategoria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCategoria.Location = new System.Drawing.Point(129, 220);
             this.tbCategoria.Name = "tbCategoria";
-            this.tbCategoria.Size = new System.Drawing.Size(100, 20);
+            this.tbCategoria.Size = new System.Drawing.Size(100, 21);
             this.tbCategoria.TabIndex = 5;
             // 
             // tbDescricao
             // 
             this.tbDescricao.BackColor = System.Drawing.Color.Firebrick;
             this.tbDescricao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbDescricao.Location = new System.Drawing.Point(27, 272);
             this.tbDescricao.Multiline = true;
             this.tbDescricao.Name = "tbDescricao";
@@ -137,9 +140,10 @@ namespace Adega
             // 
             this.tbAno.BackColor = System.Drawing.Color.Firebrick;
             this.tbAno.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbAno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbAno.Location = new System.Drawing.Point(157, 369);
             this.tbAno.Name = "tbAno";
-            this.tbAno.Size = new System.Drawing.Size(72, 20);
+            this.tbAno.Size = new System.Drawing.Size(72, 21);
             this.tbAno.TabIndex = 7;
             // 
             // btLimpar
@@ -191,7 +195,6 @@ namespace Adega
             this.dgAdega.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dgAdega.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Empty;
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -205,6 +208,61 @@ namespace Adega
             this.dgAdega.Size = new System.Drawing.Size(678, 352);
             this.dgAdega.TabIndex = 9;
             this.dgAdega.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgAdega_CellContentClick);
+            // 
+            // colID
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Verdana", 9F);
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.colID.DefaultCellStyle = dataGridViewCellStyle2;
+            this.colID.HeaderText = "ID";
+            this.colID.Name = "colID";
+            this.colID.Width = 40;
+            // 
+            // colNome
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.colNome.DefaultCellStyle = dataGridViewCellStyle3;
+            this.colNome.HeaderText = "Nome";
+            this.colNome.Name = "colNome";
+            this.colNome.Width = 125;
+            // 
+            // colCategoria
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Verdana", 9F);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.colCategoria.DefaultCellStyle = dataGridViewCellStyle4;
+            this.colCategoria.HeaderText = "Categoria";
+            this.colCategoria.Name = "colCategoria";
+            this.colCategoria.Width = 150;
+            // 
+            // colDescricao
+            // 
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Verdana", 9F);
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            this.colDescricao.DefaultCellStyle = dataGridViewCellStyle5;
+            this.colDescricao.HeaderText = "Descrição";
+            this.colDescricao.Name = "colDescricao";
+            this.colDescricao.Width = 290;
+            // 
+            // colAno
+            // 
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Verdana", 9F);
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            this.colAno.DefaultCellStyle = dataGridViewCellStyle6;
+            this.colAno.HeaderText = "Ano";
+            this.colAno.Name = "colAno";
+            this.colAno.Width = 70;
             // 
             // btInserir
             // 
@@ -306,61 +364,6 @@ namespace Adega
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 526);
             this.panel1.TabIndex = 18;
-            // 
-            // colID
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Verdana", 9F);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            this.colID.DefaultCellStyle = dataGridViewCellStyle2;
-            this.colID.HeaderText = "ID";
-            this.colID.Name = "colID";
-            this.colID.Width = 40;
-            // 
-            // colNome
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            this.colNome.DefaultCellStyle = dataGridViewCellStyle3;
-            this.colNome.HeaderText = "Nome";
-            this.colNome.Name = "colNome";
-            this.colNome.Width = 125;
-            // 
-            // colCategoria
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Verdana", 9F);
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.colCategoria.DefaultCellStyle = dataGridViewCellStyle4;
-            this.colCategoria.HeaderText = "Categoria";
-            this.colCategoria.Name = "colCategoria";
-            this.colCategoria.Width = 150;
-            // 
-            // colDescricao
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Verdana", 9F);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            this.colDescricao.DefaultCellStyle = dataGridViewCellStyle5;
-            this.colDescricao.HeaderText = "Descrição";
-            this.colDescricao.Name = "colDescricao";
-            this.colDescricao.Width = 290;
-            // 
-            // colAno
-            // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Verdana", 9F);
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            this.colAno.DefaultCellStyle = dataGridViewCellStyle6;
-            this.colAno.HeaderText = "Ano";
-            this.colAno.Name = "colAno";
-            this.colAno.Width = 70;
             // 
             // FormAdega
             // 
