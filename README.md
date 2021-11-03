@@ -25,7 +25,9 @@ código-fonte no GitHub.
 
 •Elaborar os documentos do projeto de software que serão utilizados durante o
 desenvolvimento da aplicação escolhida:
+
 o Desenvolver o Plano de Projeto;
+
 o Dicionário de dados de todo o sistema;
 o Prototipação das interfaces do CRUD que serão desenvolvidas;
 o Diagrama de classes de todo o sistema;
