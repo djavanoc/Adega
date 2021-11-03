@@ -28,7 +28,7 @@ código-fonte no GitHub.
 
 **Tarefa:**
 
-•Elaborar os documentos do projeto de software que serão utilizados durante o
+Elaborar os documentos do projeto de software que serão utilizados durante o
 desenvolvimento da aplicação escolhida:
 
    -Desenvolver o Plano de Projeto;
@@ -43,8 +43,8 @@ desenvolvimento da aplicação escolhida:
 
    -DER (Diagrama de Entidade e Relacionamento) e MER (Modelo de Entidades e
     Relacionamentos) de todo o sistema.
-
-• Desenvolver, no mínimo, um CRUD (Create: criar entradas; Read: listar as entradas
+    
+ Desenvolver, no mínimo, um CRUD (Create: criar entradas; Read: listar as entradas
 existentes; Update: editar entradas existentes; e Delete: remover entradas existentes) da
 aplicação escolhida:
 
