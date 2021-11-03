@@ -1,7 +1,9 @@
 # HOW-IV
 
 Github centralizador do nosso grupo de HOW IV.
+
 Alunos: 
+
 Djavan de Oliveira Camargo, Fabricio Sassen Rodrigues de Mello, Luiggi Annes Bellincanta, Roberto Caro Varella Filho, Thales Inacio da Silva Fernandes
 
 
@@ -11,11 +13,14 @@ Os mockups podem ser visualizados aqui: https://drive.google.com/file/d/1ip32zry
 -------
 **Sobre o HOW IV:**
 
-• Trabalho: 3-6 alunos;
-• Tema livre:
-◦ Escolher uma aplicação/sistema, por exemplo: sistema de aluguel de carros; sistema para
+-Trabalho: 3-6 alunos;
+
+-Tema livre:
+
+-Escolher uma aplicação/sistema, por exemplo: sistema de aluguel de carros; sistema para
 pedidos de uma pizzaria; sistema para compras de ingresso; entre outros.
-• Desenvolver uma aplicação/sistema que utilize os recursos aprendidos nas disciplinas de
+
+-Desenvolver uma aplicação/sistema que utilize os recursos aprendidos nas disciplinas de
 Paradigmas de Programação e Software Design. Apresentar para o professor e postar o
 código-fonte no GitHub.
 
