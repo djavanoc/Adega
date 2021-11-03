@@ -13,11 +13,11 @@ Os mockups podem ser visualizados aqui: https://drive.google.com/file/d/1ip32zry
 -------
 **Sobre o HOW IV:**
 
--Trabalho: 3-6 alunos;
+*Trabalho: 3-6 alunos;
 
 -Tema livre:
 
-   •Escolher uma aplicação/sistema, por exemplo: sistema de aluguel de carros; sistema para
+  *Escolher uma aplicação/sistema, por exemplo: sistema de aluguel de carros; sistema para
     pedidos de uma pizzaria; sistema para compras de ingresso; entre outros.
 
 -Desenvolver uma aplicação/sistema que utilize os recursos aprendidos nas disciplinas de
