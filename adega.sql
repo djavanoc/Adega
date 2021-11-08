@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 16-Set-2021 às 02:45
+-- Tempo de geração: 08-Nov-2021 às 01:42
 -- Versão do servidor: 10.4.20-MariaDB
 -- versão do PHP: 8.0.9
 
@@ -42,9 +42,9 @@ CREATE TABLE `vinho` (
 
 INSERT INTO `vinho` (`idVinho`, `nomeVinho`, `categoriaVinho`, `descricaoVinho`, `anoVinho`, `ativoVinho`) VALUES
 (1, 'Decanto ', 'Suave', 'Produzido com uva Verde.', 1994, 1),
-(2, 'JotaP', 'Branco', 'Produzido na Serra Gaúcha.', 1999, 1),
+(2, 'JP', 'Branco', 'Produzido na Serra Gaúcha.', 1999, 1),
 (3, 'Veuve Clicquot', 'Tannat', 'VinhoProduzido a base de laranja.', 2002, 1),
-(5, 'ADW', 'Gewurztraminer', 'Produzido com uvas Brasileiras.', 2012, 1),
+(5, 'ADW', 'Gewurztraminer', 'Produzido com uvas ', 2012, 1),
 (6, 'Red3', 'Pinot Noir', 'Produzido com Uvas Vermelhas.', 2005, 1),
 (8, 'La Viena ', 'Tinto ', 'Produção Artezanal.', 2008, 1),
 (9, 'Arturito', 'Tinto ', 'Inportado.', 2000, 1);
