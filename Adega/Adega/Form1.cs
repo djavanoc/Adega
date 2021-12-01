@@ -27,7 +27,7 @@ namespace Adega
             conexaoBD.SslMode = 0;
             return conexaoBD;
         }
-        private void btLimpar_Click(object sender, EventArgs e)
+        private void btLimpar_Click(object sender, EventArgs e) // botão limpar 
             {
             limparCampos();
             }
@@ -80,7 +80,7 @@ namespace Adega
             }
         }
        
-        private void btInserir_Click(object sender, EventArgs e)
+        private void btInserir_Click(object sender, EventArgs e)// botão inserir 
         {
             MySqlConnectionStringBuilder conexaoBD = conexaoBanco();
             MySqlConnection realizaConexacoBD = new MySqlConnection(conexaoBD.ToString());
@@ -123,7 +123,7 @@ namespace Adega
             }
         }
 
-        private void btnAlterar_Click(object sender, EventArgs e)
+        private void btnAlterar_Click(object sender, EventArgs e) // botão alterar
         {
             MySqlConnectionStringBuilder conexaoBD = conexaoBanco();
             MySqlConnection realizaConexacoBD = new MySqlConnection(conexaoBD.ToString());
@@ -140,7 +140,7 @@ namespace Adega
                 comandoMySql.ExecuteNonQuery();
 
                 realizaConexacoBD.Close();
-                MessageBox.Show("Atualizado com sucesso");
+                MessageBox.Show("Atualizado com sucesso"); // mensagem de atualização 
                 atualizaGrid();
                 limparCampos();
             }
@@ -151,7 +151,7 @@ namespace Adega
             }
         }
 
-        private void btnDeletar_Click(object sender, EventArgs e)
+        private void btnDeletar_Click(object sender, EventArgs e) // botão deletar 
         {
             MySqlConnectionStringBuilder conexaoBD = conexaoBanco();
             MySqlConnection realizaConexacoBD = new MySqlConnection(conexaoBD.ToString());
@@ -166,7 +166,7 @@ namespace Adega
                 comandoMySql.ExecuteNonQuery();
 
                 realizaConexacoBD.Close(); 
-                MessageBox.Show("Removido com sucesso"); 
+                MessageBox.Show("Removido com sucesso"); //mensagem de removido com sucesso 
                 atualizaGrid();
                 limparCampos();
             }
