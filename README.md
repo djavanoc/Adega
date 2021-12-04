@@ -6,6 +6,9 @@
 
    Djavan de Oliveira Camargo, Fabricio Sassen Rodrigues de Mello, Luiggi Annes Bellincanta, Thales Inacio da Silva Fernandes
 
+O Vídeo de apresentação do HOW IV pode ser visualizado neste link:
+
+[![Clique aqui](https://user-images.githubusercontent.com/35511577/144727848-a6250669-4db2-4fd7-bb05-432a93d31a29.png)](https://youtu.be/evHHJ4_gz0A "HOW IV")
 
 -------
 **Sobre o HOW IV:**
