@@ -4,7 +4,7 @@
 
    Alunos: 
 
-   Djavan de Oliveira Camargo, Fabricio Sassen Rodrigues de Mello, Luiggi Annes Bellincanta, Roberto Caro Varella Filho, Thales Inacio da Silva Fernandes
+   Djavan de Oliveira Camargo, Fabricio Sassen Rodrigues de Mello, Luiggi Annes Bellincanta, Thales Inacio da Silva Fernandes
 
 
 Os mockups podem ser visualizados aqui: https://drive.google.com/file/d/1ip32zryGM_uLxTEwmuO3pfQpJo2Fg0XP/view
